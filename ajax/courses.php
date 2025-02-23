@@ -1,6 +1,6 @@
 <?php
-require_once './database/courses.class.php';
-require_once './database/subject.class.php';
+require_once '../database/courses.class.php';
+require_once '../database/subject.class.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 //    handlePostRequest();
