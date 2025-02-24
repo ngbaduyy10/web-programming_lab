@@ -11,7 +11,7 @@
         rel="stylesheet"
     />
     <link rel="stylesheet" href="css/auth.css" />
-    <title>Login</title>
+    <title>Register</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
@@ -28,7 +28,7 @@
                 </div>
             </div>
         </div>
-        <form action="" class="d-flex flex-column align-items-center col-12 col-sm-6 p-4">
+        <form id="register-form" class="d-flex flex-column align-items-center col-12 col-sm-6 p-4">
             <h1>Sign Up</h1>
             <div class="input-box">
                 <label for="username" class="d-block">Username</label>
@@ -38,7 +38,7 @@
             <div class="input-box">
                 <label for="email" class="d-block">Email</label>
                 <input type="email" id="email" required>
-                <i class='bx bxs-user'></i>
+                <i class='bx bxs-envelope' ></i>
             </div>
             <div class="input-box">
                 <label for="password" class="d-block">Password</label>
@@ -56,5 +56,13 @@
         </form>
     </div>
 </div>
+
+<!--jQuery-->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<!--Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<script src="js/auth.js"></script>
 </body>
 </html>

@@ -28,12 +28,12 @@
                 </div>
             </div>
         </div>
-        <form action="" class="d-flex flex-column align-items-center col-12 col-sm-6 p-4">
+        <form id="login-form" class="d-flex flex-column align-items-center col-12 col-sm-6 p-4">
             <h1>Sign In</h1>
             <div class="input-box">
-                <label for="username" class="d-block">Username</label>
-                <input type="text" id="username" required>
-                <i class='bx bxs-user'></i>
+                <label for="email" class="d-block">Email</label>
+                <input type="email" id="email" required>
+                <i class='bx bxs-envelope' ></i>
             </div>
             <div class="input-box">
                 <label for="password" class="d-block">Password</label>
@@ -54,5 +54,13 @@
         </form>
     </div>
 </div>
+
+<!--jQuery-->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<!--Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<script src="js/auth.js"></script>
 </body>
 </html>
