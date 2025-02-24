@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 function handleGetRequest() {
     if (isset($_GET['action'])) {
         if ($_GET['action'] === 'get_courses') {
-            $courses = (new Courses())->get_courses($_GET['sort'], $_GET['keyword']);
+            $courses = (new Courses())->get_courses($_GET['sort'], $_GET['keyword'], $_GET['limit'], $_GET['offset']);
             echo json_encode(['status' => 'success', 'data' => $courses]);
         } elseif ($_GET['action'] === 'get_subjects') {
             $subjects = (new Subject())->get_subjects();

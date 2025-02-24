@@ -5,7 +5,7 @@ class Courses extends Database {
     public function __construct() {
         $this->conn = $this->connect();
     }
-    public function get_courses($sort = null, $keyword = null) {
+    public function get_courses($sort = null, $keyword = null, $limit = 8, $offset = 0) {
         $sql = "SELECT * FROM courses";
         $params = [];
 
@@ -23,6 +23,11 @@ class Courses extends Database {
                 $sql .= " ORDER BY $column " . strtoupper($order);
             }
         }
+
+        if ($limit && $offset >= 0) {
+            $sql .= " LIMIT " . (int)$limit . " OFFSET " . (int)$offset;
+        }
+
         $stmt = $this->conn->prepare($sql);
         foreach ($params as $key => $value) {
             $stmt->bindValue($key, $value, PDO::PARAM_STR);
