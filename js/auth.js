@@ -1,3 +1,4 @@
+import { showToast } from "./toast.js";
 $(document).ready(function () {
     $("#register-form").submit(function (e) {
         e.preventDefault();
@@ -20,7 +21,7 @@ $(document).ready(function () {
                 if (response.success) {
                     window.location.href = "/bright-courses/home.php";
                 } else {
-                    alert(response.message);
+                    showToast("error", response.message);
                 }
             },
             error: function (xhr, status, error) {
@@ -48,7 +49,7 @@ $(document).ready(function () {
                 if (response.success) {
                     window.location.href = "/bright-courses/home.php";
                 } else {
-                    alert(response.message);
+                    showToast("error", response.message);
                 }
             },
             error: function (xhr, status, error) {
