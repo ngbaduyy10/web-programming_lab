@@ -135,133 +135,111 @@ include './layouts/header.php';
             </div>
         </div>
     </div>
-<!--    <div class="feedback">-->
-<!--        <div class="main-content">-->
-<!--            <div class="feedback-list">-->
-<!--                <div class="feedback-item">-->
-<!--                    <div class="info">-->
-<!--                        <img-->
-<!--                                src="./assets/icon/Ellipse 2649.svg"-->
-<!--                                alt=""-->
-<!--                                class="avatar"-->
-<!--                        />-->
-<!--                        <p class="name">Peter Moor</p>-->
-<!--                        <p class="desc">Student of Web Design</p>-->
-<!--                    </div>-->
-<!--                    <div class="quotes">-->
-<!--                        <img-->
-<!--                                src="./assets/icon/Vector.svg"-->
-<!--                                alt=""-->
-<!--                                class="open-quotes"-->
-<!--                        />-->
-<!--                        <blockquote>-->
-<!--                            Not only does my resume look impressive—filled with the names-->
-<!--                            and logos of world-class institutions—but these certificates-->
-<!--                            also bring me closer to my career goals by validating the-->
-<!--                            skills I've learned."-->
-<!--                        </blockquote>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div class="feature">-->
-<!--        <div class="container">-->
-<!--            <div class="body">-->
-<!--                <div class="image">-->
-<!--                    <img src="./assets/img/Learn1.jpg" alt="" class="lower" />-->
-<!--                    <img src="./assets/img/Learn2.jpg" alt="" />-->
-<!--                </div>-->
-<!--                <div class="content">-->
-<!--                    <h2 class="heading-lv2">-->
-<!--                        Learner outcomes through our awesome platform-->
-<!--                    </h2>-->
-<!--                    <p class="desc">-->
-<!--                        87% of people learning for professional development report-->
-<!--                        career benefits like getting a promotion, a raise, or starting a-->
-<!--                        new career.-->
-<!--                    </p>-->
-<!--                    <p class="desc">Lesson Impact Report (2022)</p>-->
-<!--                    <a href="#!" class="button">Sign Up</a>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div class="feature2">-->
-<!--        <div class="container">-->
-<!--            <div class="body">-->
-<!--                <div class="content">-->
-<!--                    <h2 class="heading-lv2">-->
-<!--                        Take the next step toward your personal and professional goals-->
-<!--                        with Lesson.-->
-<!--                    </h2>-->
-<!--                    <p class="desc">-->
-<!--                        Take the next step toward. Join now to receive personalized and-->
-<!--                        more recommendations from the full Coursera catalog.-->
-<!--                    </p>-->
-<!--                    <a href="#!" class="button">Join Now</a>-->
-<!--                </div>-->
-<!--                <img src="./assets/img/Learn3.jpg" alt="" class="img" />-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    <div class="blog">-->
-<!--        <div class="container">-->
-<!--            <div class="body">-->
-<!--                <h2 class="heading-lv2">Our blog</h2>-->
-<!--                <p class="desc">-->
-<!--                    Read our regular travel blog and know the latest update of tour-->
-<!--                    and travel-->
-<!--                </p>-->
-<!--                <div class="base-list">-->
-<!--                    <div class="base">-->
-<!--                        <img src="./assets/img/blog1.jpg" alt="" />-->
-<!--                        <div class="text">-->
-<!--                            <div class="head">-->
-<!--                                <div class="icon"></div>-->
-<!--                                <p class="desc1">21 November 2021</p>-->
-<!--                            </div>-->
-<!--                            <hr />-->
-<!--                            <h3 class="label">-->
-<!--                                How to become a pro web designer in 2022 and get remote job?-->
-<!--                            </h3>-->
-<!--                            <a href="#!" class="button">Read More</a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!---->
-<!--                    <div class="base">-->
-<!--                        <img src="./assets/img/blog2.jpg" alt="" />-->
-<!--                        <div class="text">-->
-<!--                            <div class="head">-->
-<!--                                <div class="icon"></div>-->
-<!--                                <p class="desc1">21 November 2021</p>-->
-<!--                            </div>-->
-<!--                            <hr />-->
-<!--                            <h3 class="label">-->
-<!--                                How to become a pro web designer in 2022 and get remote job?-->
-<!--                            </h3>-->
-<!--                            <a href="#!" class="button">Read More</a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!---->
-<!--                    <div class="base">-->
-<!--                        <img src="./assets/img/blog3.jpg" alt="" />-->
-<!--                        <div class="text">-->
-<!--                            <div class="head">-->
-<!--                                <div class="icon"></div>-->
-<!--                                <p class="desc1">21 November 2021</p>-->
-<!--                            </div>-->
-<!--                            <hr />-->
-<!--                            <h3 class="label">-->
-<!--                                How to become a pro web designer in 2022 and get remote job?-->
-<!--                            </h3>-->
-<!--                            <a href="#!" class="button">Read More</a>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
+    <div class="feedback">
+        <div class="main-content">
+            <div class="feedback-list">
+                <div class="feedback-item">
+                    <div class="info">
+                        <img
+                                src="./assets/icon/Ellipse 2649.svg"
+                                alt=""
+                                class="avatar"
+                        />
+                        <p class="name">Peter Moor</p>
+                        <p class="desc">Student of Web Design</p>
+                    </div>
+                    <div class="quotes">
+                        <img
+                                src="./assets/icon/Vector.svg"
+                                alt=""
+                                class="open-quotes"
+                        />
+                        <blockquote>
+                            Not only does my resume look impressive—filled with the names
+                            and logos of world-class institutions—but these certificates
+                            also bring me closer to my career goals by validating the
+                            skills I've learned."
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="feature2">
+        <div class="container">
+            <div class="body">
+                <div class="content">
+                    <h2 class="heading-lv2">
+                        Take the next step toward your personal and professional goals
+                        with Lesson.
+                    </h2>
+                    <p class="desc">
+                        Take the next step toward. Join now to receive personalized and
+                        more recommendations from the full Coursera catalog.
+                    </p>
+                    <a href="#!" class="button">Join Now</a>
+                </div>
+                <img src="./assets/img/Learn3.jpg" alt="" class="img" />
+            </div>
+        </div>
+    </div>
+    <div class="blog">
+        <div class="container">
+            <div class="body">
+                <h2 class="heading-lv2">Our blog</h2>
+                <p class="desc">
+                    Read our regular travel blog and know the latest update of tour
+                    and travel
+                </p>
+                <div class="base-list">
+                    <div class="base">
+                        <img src="./assets/img/blog1.jpg" alt="" />
+                        <div class="text">
+                            <div class="head">
+                                <div class="icon"></div>
+                                <p class="desc1">21 November 2021</p>
+                            </div>
+                            <hr />
+                            <h3 class="label">
+                                How to become a pro web designer in 2022 and get remote job?
+                            </h3>
+                            <a href="#!" class="button">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="base">
+                        <img src="./assets/img/blog2.jpg" alt="" />
+                        <div class="text">
+                            <div class="head">
+                                <div class="icon"></div>
+                                <p class="desc1">21 November 2021</p>
+                            </div>
+                            <hr />
+                            <h3 class="label">
+                                How to become a pro web designer in 2022 and get remote job?
+                            </h3>
+                            <a href="#!" class="button">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="base">
+                        <img src="./assets/img/blog3.jpg" alt="" />
+                        <div class="text">
+                            <div class="head">
+                                <div class="icon"></div>
+                                <p class="desc1">21 November 2021</p>
+                            </div>
+                            <hr />
+                            <h3 class="label">
+                                How to become a pro web designer in 2022 and get remote job?
+                            </h3>
+                            <a href="#!" class="button">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </main>
 <?php
 include './layouts/footer.php';

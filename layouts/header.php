@@ -1,3 +1,8 @@
+<?php
+session_start();
+$isLogin = isset($_SESSION['user_id']);
+?>
+
 <link rel="stylesheet" href="../css/layout.css" />
 
 <header class="header fixed">
@@ -25,7 +30,11 @@
                     </li>
                 </ul>
             </div>
-            <a href="login.php" class="button button-sign-up d-none d-lg-block">Sign In</a>
+            <?php if ($isLogin): ?>
+                <a href="logout.php" class="button button-sign-up d-none d-lg-block">Log out</a>
+            <?php else: ?>
+                <a href="login.php" class="button button-sign-up d-none d-lg-block">Sign In</a>
+            <?php endif; ?>
         </div>
     </nav>
 </header>

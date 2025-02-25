@@ -1,7 +1,6 @@
 <?php
+session_start();
 require_once 'database.class.php';
-header('Content-Type: application/json');
-
 class Auth extends Database {
     private $conn;
     public function __construct() {
@@ -34,6 +33,7 @@ class Auth extends Database {
         $stmt->bindParam(':email', $email);
         $stmt->bindParam(':password', $hashedPassword);
         if ($stmt->execute()) {
+            $_SESSION['user_id'] = $this->conn->lastInsertId();
             return ['success' => true, 'message' => 'Registration successful.'];
         } else {
             return ['success' => false, 'message' => 'An error occurred during registration.'];
@@ -51,6 +51,7 @@ class Auth extends Database {
         }
 
         if (password_verify($password, $user['password'])) {
+            $_SESSION['user_id'] = $user['id'];
             return [
                 'success' => true,
                 'message' => 'Login successful.',
